@@ -1,0 +1,53 @@
+﻿
+<ion-view view-title="Tours">
+    
+    <ion-content class="im-wrapper">
+        
+        <div class="list card ">
+            <div class="item item-image">
+                <img src="http://www.fubiz.net/wp-content/uploads/2015/07/feridun-900x788.jpg">
+                <div class="text-on-image card-title-shadow">
+                    <h2>Super news</h2>
+                    <h3>Tuesday, 5th of November 2015</h3>
+                </div>
+            </div>
+            <div class="item item-body">
+                The quickest way to a man's heart is through Arya's needle. She has two speeds: Walk and Kill, and is the reason why Waldo is still hiding.
+                The quickest way to a man's heart is through Arya's needle. She has two speeds: Walk and Kill, and is the reason why Waldo is still hiding.
+                The quickest way to a man's heart is through Arya's needle. She has two speeds: Walk and Kill, and is the reason why Waldo is still hiding.
+            </div>
+            <div class="item tabs tabs-secondary tabs-icon-left white-tabs">
+                <a class="tab-item white-tab-text" href="#">
+                    <i class="icon ion-thumbsup"></i>
+                    Like
+                </a>
+                <a class="tab-item white-tab-text" href="#">
+                    <i class="icon ion-chatbox"></i>
+                    Comment
+                </a>
+                <a class="tab-item white-tab-text" href="#">
+                    <i class="icon ion-share"></i>
+                    Share
+                </a>
+            </div>
+            
+        </div>
+        
+        <table border="1" ng-controller="ToursController">
+            <thead>
+                <tr>
+                    <th>asd</th>
+                    <th>asd</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="tour in tours">
+                    <td>{{ tour.description }}</td>
+                    <td>{{ tour.check_in }}</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </ion-content>
+    
+</ion-view>
